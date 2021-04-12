@@ -1,0 +1,56 @@
+[
+    {
+        "id": 0,
+        "name": "To do",
+        "todos": [
+            {
+                "id": 0,
+                "status": 0,
+                "title": "Design",
+                "desc": "Lorem ipsum dolor sit amet,"
+            },
+            {
+                "id": 1,
+                "status": 1,
+                "title": "Design",
+                "desc": "Lorem ipsum dolor sit amet,"
+            },
+            {
+                "id": 2,
+                "status": 2,
+                "title": "Design",
+                "desc": "Lorem ipsum dolor sit amet,"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "name": "In Progress",
+        "todos": [
+            {
+                "id": 0,
+                "status": 0,
+                "title": "Design",
+                "desc": "consectetur adipiscing elit."
+            },
+            {
+                "id": 1,
+                "status": 1,
+                "title": "Design",
+                "desc": "consectetur adipiscing elit."
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Done",
+        "todos": [
+            {
+                "id": 0,
+                "status": 0,
+                "title": "Design",
+                "desc": "Nunc consectetur tellus sed mauris vulputate."
+            }
+        ]
+    }
+]

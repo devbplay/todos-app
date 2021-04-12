@@ -1,0 +1,61 @@
+@import '../theme';
+
+.container {
+    width: 100%;
+    height: max-content;
+
+    background: $white;
+    border-radius: 10px;
+
+    margin-top: 20px;
+
+    padding: 0 25px;
+
+    -webkit-box-shadow: 0px 0px 73px -50px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 73px -50px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 73px -50px rgba(0,0,0,0.5);
+
+    cursor: pointer;
+}
+
+.areaTitleTodo {
+    width: 100%;
+
+    margin-top: 15px;
+    
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    width: 50%;
+
+    display: flex;
+
+    margin: 10px 0;
+
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.clipArea {
+    width: 50%;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.clipArea > img {
+    width: 1.1rem;
+}
+
+.titleTodo {
+    padding-left: 10px;
+}
+
+.descTodo {
+    font-size: 15px;
+
+    margin-top: 5px;
+    margin-bottom: 35px;
+}
